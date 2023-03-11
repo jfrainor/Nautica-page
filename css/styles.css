@@ -1,0 +1,208 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: #BBBBBB;
+}
+
+/* Navbar section */
+
+.navbar {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 50px;
+}
+
+
+.nav-container {
+  padding: 2px;
+}
+
+
+.nav-item {
+  margin: 1rem;
+  text-align: center;
+}
+
+
+/* seccion principal*/
+
+#principal{
+  background-color: #92B4EC;
+  padding: 3% 15% 5%;
+  color: #ece6af;
+}
+
+#principal h5{
+  color:rgb(0, 0, 0)
+}
+
+title-heading {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+/* destacados section */
+
+#destacados {
+  padding: 6% 15%;
+  text-align: center;
+  background-color: rgba(242, 251, 252, 0.979);
+}
+
+.destacados-img {
+  width: 80%;
+  height: 30%;
+}
+
+.destacados-heading {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  margin: 15% 0;
+}
+
+.destacados-para {
+  padding: 0 9%;
+}
+
+/*tarjetas*/
+
+.card{
+  transition: box-shadow 0.3s ease;
+  cursor:pointer;
+  margin: 1rem;
+}
+
+.card:hover{
+  box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+
+.d{
+  width: 350px;
+	height: 400px;
+  margin-bottom: 10px;
+
+}
+
+.card-title-d{
+  color: rgb(255, 255, 255);
+  background-color: #21485a;
+  margin-top: 21rem;
+}
+
+/* departament section */
+
+#departamentos {
+  background-color: #FFE69A;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.departamento-heading {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.img-normalizada{
+	width: 350px;
+	height: 400px;
+	object-fit: cover;
+  margin-bottom: 2rem;
+}
+
+/* historia section */
+
+#thistoria {
+  margin-top: 8rem;
+  padding: 2% 20% 2% 20%;
+  text-align: center;
+  color: #000000;
+}
+
+.historia-heading {
+  font-weight:700;
+  line-height: 1.5;
+}
+
+#historia{
+  margin:2rem;
+  margin-top:1rem;
+  padding: 2rem;
+  background-color: #e4d198;
+}
+
+#historia p{
+ color: black;
+ margin-top: 3rem;
+ font-size: 18px;
+
+}
+
+.columnas{
+  padding: 1px;
+}
+
+.nautico1{
+  width: 500px;
+	height: 400px;
+	object-fit: cover;
+  margin-bottom: 2rem;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.nautico2{
+  width: 300px;
+	height: 500px;
+	object-fit: cover;
+  margin-bottom: 2rem;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.imagelogo{
+  width: 500px;
+  object-fit: cover;
+  margin: 2rem;
+  border-style: solid;
+  border-color: #000000;
+}
+
+
+/* footer section */
+
+#footer {
+  padding: 0 15% 5%;
+  text-align: center;
+}
+
+#footer button{
+  border:none;
+}
+
+.footer-icon {
+  margin: 10px;
+}
+
+
+/* Media query section */
+
+@media (max-width: 1050px) {
+
+  #principal{
+    text-align: center;
+  }
+
+  .imgprincipal {
+    width: 60%;
+    margin-left: 0;
+  }
+
+}
